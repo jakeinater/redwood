@@ -1849,16 +1849,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-react@npm:3.5.1":
-  version: 3.5.1
-  resolution: "@clerk/clerk-react@npm:3.5.1"
+"@clerk/clerk-react@npm:4.1.1":
+  version: 4.1.1
+  resolution: "@clerk/clerk-react@npm:4.1.1"
   dependencies:
-    "@clerk/types": ^2.21.0
+    "@clerk/types": ^3.5.1
     swr: ^1.3.0
     tslib: ^2.3.1
   peerDependencies:
     react: ">=16"
-  checksum: bc0bc5261a263dbbab9d54558d5d819eaa22769a403e026996b827a62aedeb4d8f24284413e1751c29c5d2e7cbb529a8bd379cb2b1d87147f1fb9872c141d7ef
+  checksum: 3ed1e74bfc895a7c29d269113955c981714d07391c72809b3e19c822a0fc21c0a9269972d6d5b5bc4e92db887d60a99c58665b2e9197e39ead4157252ce603bc
   languageName: node
   linkType: hard
 
@@ -1885,6 +1885,15 @@ __metadata:
   version: 2.21.0
   resolution: "@clerk/types@npm:2.21.0"
   checksum: 91c0a07459d6a11e8b79f8ebc31fa81c37a947313d67deb3a3d31519bf8b360ce8ac902d534fbd2f764cf382aa9e5a016398488da81dc72589e34daa04d3f48f
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:^3.5.1":
+  version: 3.5.1
+  resolution: "@clerk/types@npm:3.5.1"
+  dependencies:
+    csstype: ^3.1.0
+  checksum: c22a521b669c4ac47b7981d72576aa390d3c0b717bd603b3514065d9c5e5353ad905856b636bdede54e63ebbcf321f13090967a40f1a2579ff246c2ddd1cda04
   languageName: node
   linkType: hard
 
@@ -6212,7 +6221,7 @@ __metadata:
     "@babel/core": 7.19.1
     "@babel/runtime-corejs3": 7.19.1
     "@clerk/clerk-js": 3.17.0
-    "@clerk/clerk-react": 3.5.1
+    "@clerk/clerk-react": 4.1.1
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
     "@nhost/hasura-auth-js": 1.4.1
@@ -14063,10 +14072,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2, csstype@npm:^3.0.6":
-  version: 3.0.10
-  resolution: "csstype@npm:3.0.10"
-  checksum: f0fff671ab368a863946859ad96be0be66afeb83566215d6494be840ffedfaef4945b48d1b0ce1a19f9983af772e0ce38c7be91a1ad46fe7ecd641937c5a99f7
+"csstype@npm:^3.0.2, csstype@npm:^3.0.6, csstype@npm:^3.1.0":
+  version: 3.1.1
+  resolution: "csstype@npm:3.1.1"
+  checksum: 7c8b8c5923049d84132581c13bae6e1faf999746fe3998ba5f3819a8e1cdc7512ace87b7d0a4a69f0f4b8ba11daf835d4f1390af23e09fc4f0baad52c084753a
   languageName: node
   linkType: hard
 
